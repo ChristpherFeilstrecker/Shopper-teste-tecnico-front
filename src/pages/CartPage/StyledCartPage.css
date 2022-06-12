@@ -1,0 +1,43 @@
+.cart-page {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.products-cart{
+    border-width: 2px; 
+border-style: solid; 
+border-color:  rgb(152, 152, 153);
+padding: 1rem;
+border-radius: 1rem;
+}
+
+.price-box {
+    padding: 0.5rem;
+    background-color: rgb(158, 165, 165);
+    width: 10rem;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(252, 252, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .total-price-container{
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ .request{
+     margin-top: 2rem;
+ }
+
+ .gap-btn{
+     gap:0.5rem;
+ }
+
+ .btn-img-trash{
+     width: 1rem;
+     cursor: pointer;
+ }
